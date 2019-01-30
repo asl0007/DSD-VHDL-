@@ -10,4 +10,8 @@ PROGRAMS OF VHDL(Index)
 
 3)Write a VHDL program to implement 4:1 mux and 1:4 demux.
 
-4)
+4)Write a VHDL program to implement 4-bit comparator.
+
+5)
+
+6)
