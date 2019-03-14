@@ -13,7 +13,7 @@ architecture test of fa_tb is
   end component;
   signal a,b,c,sum,carry : std_logic;
   begin
-  UUT : gates Port map(a=>a,b=>b,c=>c,sum=>sum,carry=>carry);
+  UUT : fa Port map(a=>a,b=>b,c=>c,sum=>sum,carry=>carry);
   Process begin
 	a <= '0';
 	b <= '0';
@@ -26,7 +26,7 @@ architecture test of fa_tb is
 	wait for 1 ns;
 	a <= '1';
 	b <= '1';
-	assert false report "Reach end of text";
+	assert false report "Reach end of test";
 	wait;
   end Process;
 end test;
