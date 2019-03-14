@@ -13,7 +13,7 @@ architecture test of ha_tb is
   end component;
   signal a,b,s,c : std_logic;
   begin
-  UUT : gates Port map(a=>a,b=>b,s=>s,c=>c);
+  UUT : ha Port map(a=>a,b=>b,s=>s,c=>c);
   Process begin
 	a <= '0';
 	b <= '0';
