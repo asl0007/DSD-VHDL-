@@ -7,7 +7,7 @@ entity ha is
 	s,c : out std_logic);
   end ha;
 
-architecture behave of gates is
+architecture behave of ha is
   begin	
 	s <= a xor b;
 	c <= a and b;
