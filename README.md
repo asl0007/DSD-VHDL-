@@ -12,6 +12,14 @@ PROGRAMS OF VHDL(Index)
 
 4)Write a VHDL program to implement 4-bit comparator.
 
-5)
+5)Write a VHDL program to implement encoder and decoder. 
 
-6)
+6)Write a VHDL program to implement binary to grey and grey to binary conversion.
+
+7)Write a VHDL program to implement D Flip Flop.
+
+8)Write a VHDL program to implement SIPO.
+
+9)Write a VHDL program to implement decade counter.
+
+10)Create VHDL project.
